@@ -230,6 +230,17 @@ A continuación, aumentamos la capacidad máxima a 3
 
 Dejamos las demás opciones como están y creamos el grupo de Auto Scalling
 
+16. Ahora realice una prueba. Si todo salió bien, debería poder conectarse con el balanceador. 
+
+Utilice la dirección DNS dada por su balanceador. Puede acceder a ella seleccioando su balanceador y mirando el "DNS name" 
+
+![](images/16.PNG)
+
+Luego, con esa dirección, acceda a la función utilizando el puerto 80. Si todo salió bien, debería observar esto: 
+
+![](images/16-1.PNG)
+ 
+
 
 
 ## Licencia ## 
