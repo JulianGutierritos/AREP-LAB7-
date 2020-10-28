@@ -33,6 +33,49 @@ Este es un pequeño programa que permite a los usuarios calcular el minimo comú
 
 ## Manual para volver nuestra solución elástica y con un alto desempeño utilizando AWS ##
 
+1. Entre a AWS y cree una instancia Amazon Linux 2 
+
+![](images/1.PNG)
+
+2. Deje las configuraciones por defecto y lancela
+
+![](images/2.PNG) 
+
+3. Cree un par de llaves con el nombre que quiera y descargelas. No puede perder esta llave, ya que esa es la que se va a usar para conectarse remotamente a la máquina.
+
+![](images/3.PNG)
+
+4. Una vez la instancia haya sido creada, conectese a ella utilizando ssh.
+
+![](images/4.PNG)
+
+5. Ahora, vamos a instalar Git en la instancia. Para esto, primero ejecutamos el siguiente comando: 
+
+```
+sudo yum update -y
+
+``` 
+Y luego, ejecutamos el siguiente comando: 
+
+```
+sudo yum install git -y
+```
+
+Podemos probar su correcta instalación utilizando el comando: 
+
+```
+git version
+```
+
+![](images/5.PNG)
+
+6. Clone el repositorio utilizando: 
+
+```
+git clone https://github.com/JulianGutierritos/AREP-LAB7-.git
+```
+y luego, muevase a la carpeta raíz del repositorio
+
 
 
 ## Licencia ## 

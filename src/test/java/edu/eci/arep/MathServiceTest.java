@@ -1,8 +1,6 @@
 package edu.eci.arep;
 
 import org.junit.Test;
-
-import edu.eci.arep.model.Usuario;
 import junit.framework.Assert;
 
 /**
@@ -10,12 +8,12 @@ import junit.framework.Assert;
  * @author Julian Gutierrez
  * @version 1.0
  */
-public class LoginServiceTest {
+public class MathServiceTest {
 
    
 
     @Test
-    public void deberiaAutenticarUsuarioExistente(){
+    public void calcularMCMyMCD(){
     }
     
 }
