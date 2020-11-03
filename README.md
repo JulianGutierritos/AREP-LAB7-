@@ -3,7 +3,7 @@
 
 ## Despliegue en CircleCi
 
-[![CircleCI](https://circleci.com/gh/JulianGutierritos/AREP-LAB6.svg?style=svg)](https://app.circleci.com/pipelines/github/JulianGutierritos/AREP-LAB6)
+[![CircleCI](https://circleci.com/gh/JulianGutierritos/AREP-LAB7-.svg?style=svg)](https://app.circleci.com/pipelines/github/JulianGutierritos/AREP-LAB-7-)
 
 ## Prerrequisitos ##
 
