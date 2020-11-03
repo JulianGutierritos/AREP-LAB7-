@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"edu.eci.arep","c":"MathServiceTest","l":"calcularMCMyMCD()"},{"p":"edu.eci.arep","c":"MathServiceTest","l":"MathServiceTest()","url":"%3Cinit%3E()"}]

@@ -31,6 +31,54 @@ Para el desarrollo de este programa se utilizó:
 
 Este es un pequeño programa que permite a los usuarios calcular el minimo común multiplo y máximo común divisor de dos números naturales utilizando el método de euclides. Para utilizar este programa, el usuario debe mandar una solicitud GET con los dos numeros a calcular y recibira como respuesta la solución.
 
+## Instrucciones para su compilación, ejecución y generación de documentación ##
+
+Para compilar el programa, se debe ubicar en la carpeta raíz y allí ejecutar el siguiente comando:
+
+```
+mvn package 
+```
+
+Una vez compilado el programa, lo siguiente es ejecutarlo. Para esto, digite el siguiente comando:
+
+```
+java -cp target/classes:target/dependency/* edu.eci.arep.Main
+```
+(Para el correcto funcionamiento del programa, ¿es importante que se ejcuten los dos)
+
+ 
+(**NOTA:** Si se encuentra en un computador con SO Windows, el comando a utilizar es el siguiente:
+
+```
+java -cp target/classes;target/dependency/* edu.eci.arep.Main
+```
+
+si utiliza el otro comando estando en Windows, el programa no funcionará). 
+
+Cuando ya tenga en ejecución el programa, ingrese a la siguiente url: 
+
+```
+https://localhost:5000//calcularMCMyMCD?n1=2&n2=10
+```
+
+Debería calcular el mínimo común múltiplo y máximo común divisor de 2 y 10
+
+Si desea generar una nueva documentación del programa, debe ejecutar la siguiente lista de comandos:
+
+```
+   mvn javadoc:javadoc
+   mvn javadoc:jar
+   mvn javadoc:aggregate
+   mvn javadoc:aggregate-jar
+   mvn javadoc:test-javadoc
+   mvn javadoc:test-jar
+   mvn javadoc:test-aggregate
+   mvn javadoc:test-aggregate-jar
+```
+
+Vale recalcar que el programa ya cuenta con archivos de documentación ubicados en la carpeta "Documentacion".
+
+
 ## Manual para volver nuestra solución elástica y con un alto desempeño utilizando AWS ##
 
 1. Entre a AWS y cree una instancia Amazon Linux 2 

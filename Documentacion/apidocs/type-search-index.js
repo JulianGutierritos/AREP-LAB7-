@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"edu.eci.arep","l":"Main"},{"p":"edu.eci.arep.service","l":"MathService"},{"p":"edu.eci.arep.service.impl","l":"MathServiceEucli"}]

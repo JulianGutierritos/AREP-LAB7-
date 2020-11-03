@@ -18,7 +18,6 @@ public class Main {
 	/**
 	 * inicializa spark
 	 * 
-	 * @throws FileNotFoundException
 	 */
 	public static void main(String... args) {
 		MathService ms = new MathServiceEucli();
