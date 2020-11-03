@@ -292,7 +292,7 @@ Luego, con esa dirección, acceda a la función utilizando el puerto 80. Si todo
 
 Para realizar estas pruebas, utilizamos la herramienta "postman" que nos permitía mandar muchas solicitudes GET en simultaneo. 
 
-En esta herramienta, colocamos 5 solicitudes get en simultaneo para el cálculo del minimo común multiplo y máximo común divisor de dos números primos grandes: 100483 y 100511
+En esta herramienta, colocamos 100 solicitudes get en simultaneo para el cálculo del minimo común multiplo y máximo común divisor de dos números primos grandes: 100483 y 100511
 
 ``` 
 /calcularMCMyMCD?n1=100483&n2=100511
